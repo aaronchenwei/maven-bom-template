@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.aaronchenwei</groupId>
-  <artifactId>maven-template-bom</artifactId>
+  <artifactId>maven-bom-template</artifactId>
   <packaging>pom</packaging>
   <version>1.0.0-SNAPSHOT</version>
 
@@ -22,7 +22,7 @@
     Maven multi-module project using a different approach to BOMs
     than what is described on the Mavens introduction to dependency management.
   </description>
-  <url>https://github.com/aaronchenwei/maven-template-bom</url>
+  <url>https://github.com/aaronchenwei/maven-bom-template</url>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
@@ -67,9 +67,9 @@
   </build>
 
   <scm>
-    <url>https://github.com/aaronchenwei/maven-template-bom</url>
-    <connection>scm:git:git@github.com:aaronchenwei/maven-template-bom.git</connection>
-    <developerConnection>scm:git:git@github.com:aaronchenwei/maven-template-bom.git
+    <url>https://github.com/aaronchenwei/maven-bom-template</url>
+    <connection>scm:git:git@github.com:aaronchenwei/maven-bom-template.git</connection>
+    <developerConnection>scm:git:git@github.com:aaronchenwei/maven-bom-template.git
     </developerConnection>
     <tag>HEAD</tag>
   </scm>
