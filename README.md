@@ -38,7 +38,9 @@ When using the versions plugin it's important to process all modules, as the `bo
 skipped otherwise as there is no parent-child relation. Please note this option is only available
 from version 2.5.
 
-    mvn versions:set -DnewVersion=1.1-SNAPSHOT -DprocessAllModules=true
+```sh
+$ mvn versions:set -DnewVersion=1.1-SNAPSHOT -DprocessAllModules=true
+```
 
 ### Release plugin
 
@@ -47,6 +49,8 @@ the [maven-release-plugin](https://maven.apache.org/maven-release/maven-release-
 we also want the `bom` versions to be rolled correctly, which works because we added it to
 the `modules` section of the aggregator.
 
-    mvn release:prepare -DdryRun=true -B
+```sh
+$ mvn release:prepare -DdryRun=true -B
+```
 
 Run a `release:prepare` in dry run and check the generated pom files for the next and tag version.
